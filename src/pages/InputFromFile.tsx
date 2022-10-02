@@ -11,7 +11,7 @@ import {
   Stack,
 } from '@chakra-ui/react'
 
-export default function Root() {
+export default function InputFromFile() {
   const [amplitudes, setAmplitudes] = useState<number[]>([])
   const [fileFakeURL, setFileFakeURL] = useState('')
 
